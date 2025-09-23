@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Bebas+Neue&family=Quicksand:wght@500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+
+/* Base styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Quicksand', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+
+/* Custom animations */
+@keyframes float-diagonal {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(10px, -15px) rotate(5deg);
+  }
+  50% {
+    transform: translate(-10px, -20px) rotate(-5deg);
+  }
+  75% {
+    transform: translate(-5px, -10px) rotate(3deg);
+  }
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+@keyframes blob {
+  0%, 100% {
+    transform: scale(1) translate(0, 0);
+  }
+  33% {
+    transform: scale(1.1) translate(20px, -30px);
+  }
+  66% {
+    transform: scale(0.9) translate(-20px, 20px);
+  }
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(0) rotate(-180deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2) rotate(10deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse-neon {
+  0%, 100% {
+    filter: drop-shadow(0 0 10px #FF00FF);
+  }
+  50% {
+    filter: drop-shadow(0 0 20px #00FFFF);
+  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-2deg); }
+  75% { transform: rotate(2deg); }
+}
+
+/* Utility classes */
+.animate-float-diagonal {
+  animation: float-diagonal 8s ease-in-out infinite;
+}
+
+.animate-wiggle {
+  animation: wiggle 0.5s ease-in-out infinite;
+}
+
+.animate-blob {
+  animation: blob 15s ease-in-out infinite;
+}
+
+/* Chunky Neo Tokyo Toybrut styles */
+.neo-shadow {
+  box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+  transition: all 0.15s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.neo-shadow:hover {
+  box-shadow: 12px 12px 0px 0px #FF00FF;
+  transform: translate(-4px, -4px) rotate(1deg);
+}
+
+.neo-border {
+  border: 6px solid #000;
+  border-radius: 16px;
+}
+
+.neo-border-thin {
+  border: 4px solid #000;
+  border-radius: 12px;
+}
+
+/* Color bubbles */
+.bubble-peach {
+  background: linear-gradient(135deg, #FFB5A7, #FFC8BD);
+}
+
+.bubble-lavender {
+  background: linear-gradient(135deg, #DDA0DD, #E6B8E6);
+}
+
+.bubble-sky {
+  background: linear-gradient(135deg, #87CEEB, #A0D8F1);
+}
+
+.bubble-sage {
+  background: linear-gradient(135deg, #90EE90, #A8F3A8);
+}
