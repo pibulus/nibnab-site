@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-nibnab-peach/20 via-white to-nibnab-lavender/20">
       {/* Floating background elements */}
-      <div class="absolute inset-0 overflow-hidden">
+      <div class="absolute inset-0 overflow-hidden" aria-hidden="true">
         <div class="bubble-peach absolute top-20 left-10 w-32 h-32 rounded-full opacity-30 animate-blob" />
         <div class="bubble-lavender absolute top-40 right-20 w-24 h-24 rounded-full opacity-30 animate-blob animation-delay-2000" />
         <div class="bubble-sky absolute bottom-20 left-1/3 w-40 h-40 rounded-full opacity-30 animate-blob animation-delay-4000" />
@@ -12,14 +12,14 @@ export default function Hero() {
       {/* Main content */}
       <div class="relative z-10 text-center px-6">
         <div class="mb-8 animate-float">
-          <h1 class="font-bebas text-8xl md:text-9xl text-nibnab-dark mb-2 tracking-wide">
+          <h1 class="font-titan text-7xl md:text-8xl text-nibnab-dark mb-2 transform hover:scale-110 transition-transform">
             NibNab
           </h1>
-          <div class="flex justify-center gap-3 mt-4">
-            <span class="w-6 h-6 bg-nibnab-peach neo-border-thin rounded" />
-            <span class="w-6 h-6 bg-nibnab-lavender neo-border-thin rounded" />
-            <span class="w-6 h-6 bg-nibnab-sky neo-border-thin rounded" />
-            <span class="w-6 h-6 bg-nibnab-sage neo-border-thin rounded" />
+          <div class="flex justify-center gap-3 mt-4" role="presentation" aria-label="Four color collections">
+            <span class="w-6 h-6 bg-nibnab-peach neo-border-thin rounded" aria-label="Peach collection" />
+            <span class="w-6 h-6 bg-nibnab-lavender neo-border-thin rounded" aria-label="Lavender collection" />
+            <span class="w-6 h-6 bg-nibnab-sky neo-border-thin rounded" aria-label="Sky collection" />
+            <span class="w-6 h-6 bg-nibnab-sage neo-border-thin rounded" aria-label="Sage collection" />
           </div>
         </div>
 
@@ -36,6 +36,7 @@ export default function Hero() {
           <a
             href="#download"
             class="neo-shadow neo-border bg-nibnab-peach hover:bg-nibnab-peach/80 px-8 py-4 font-space font-bold text-lg text-nibnab-dark transform hover:rotate-1 hover:scale-105 transition-all"
+            aria-label="Download NibNab clipboard manager for macOS"
           >
             Download NibNab
           </a>
@@ -44,6 +45,7 @@ export default function Hero() {
             target="_blank"
             rel="noopener noreferrer"
             class="neo-shadow neo-border bg-white hover:bg-gray-50 px-8 py-4 font-space font-bold text-lg text-nibnab-dark transform hover:-rotate-1 hover:scale-105 transition-all"
+            aria-label="View NibNab source code on GitHub"
           >
             View on GitHub
           </a>

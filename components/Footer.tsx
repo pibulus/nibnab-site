@@ -43,7 +43,7 @@ export default function Footer() {
           </p>
 
           <p class="font-bold text-white/70">
-            Can't scale = the feature
+            Built for humans, not metrics
           </p>
 
           <div class="pt-4 border-t border-white/10">
