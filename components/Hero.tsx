@@ -15,11 +15,11 @@ export default function Hero() {
           <h1 class="font-bebas text-8xl md:text-9xl text-nibnab-dark mb-2 tracking-wide">
             NibNab
           </h1>
-          <div class="flex justify-center gap-2 mt-4">
-            <span class="w-4 h-4 bg-nibnab-peach rounded-full" />
-            <span class="w-4 h-4 bg-nibnab-lavender rounded-full" />
-            <span class="w-4 h-4 bg-nibnab-sky rounded-full" />
-            <span class="w-4 h-4 bg-nibnab-sage rounded-full" />
+          <div class="flex justify-center gap-3 mt-4">
+            <span class="w-6 h-6 bg-nibnab-peach neo-border-thin rounded" />
+            <span class="w-6 h-6 bg-nibnab-lavender neo-border-thin rounded" />
+            <span class="w-6 h-6 bg-nibnab-sky neo-border-thin rounded" />
+            <span class="w-6 h-6 bg-nibnab-sage neo-border-thin rounded" />
           </div>
         </div>
 

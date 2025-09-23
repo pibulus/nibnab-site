@@ -39,7 +39,7 @@ export default function Footer() {
             >
               Pablo
             </a>{" "}
-            with anti-scale energy
+            in Bangkok, where it's always monsoon season and the coffee is strong
           </p>
 
           <p class="font-bold text-white/70">
