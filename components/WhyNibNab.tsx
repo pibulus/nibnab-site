@@ -106,7 +106,6 @@ export default function WhyNibNab() {
           </p>
         </div>
       </div>
-      </div>
     </section>
   );
 }
