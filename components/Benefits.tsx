@@ -1,48 +1,9 @@
 export default function Benefits() {
-  const benefits = [
-    {
-      feature: "Instant Capture",
-      payoff: "Never lose that perfect quote",
-      icon: "✨",
-      color: "bg-nibnab-peach",
-    },
-    {
-      feature: "Color Sorting",
-      payoff: "Your brain already thinks in colors",
-      icon: "🎨",
-      color: "bg-nibnab-lavender",
-    },
-    {
-      feature: "Markdown Files",
-      payoff: "Works with Obsidian, Notion, everything",
-      icon: "📝",
-      color: "bg-nibnab-sky",
-    },
-    {
-      feature: "No Cloud",
-      payoff: "Your private thoughts stay private",
-      icon: "🔒",
-      color: "bg-nibnab-sage",
-    },
-    {
-      feature: "Keyboard First",
-      payoff: "Copy, press 1-4, done",
-      icon: "⌨️",
-      color: "bg-nibnab-peach",
-    },
-    {
-      feature: "Menu Bar Home",
-      payoff: "Always there when inspiration strikes",
-      icon: "🏠",
-      color: "bg-nibnab-lavender",
-    },
-  ];
-
   return (
-    <section class="py-24 px-6 bg-gradient-to-b from-gray-50 to-white">
+    <section class="py-24 px-6 bg-nibnab-lavender/10">
       <div class="max-w-6xl mx-auto">
         <div class="text-center mb-16">
-          <h2 class="font-titan text-5xl md:text-6xl text-nibnab-dark mb-4">
+          <h2 class="font-modak text-6xl md:text-7xl text-nibnab-dark mb-4 transform hover:scale-105 transition-transform">
             Built for Creative Flow
           </h2>
           <p class="font-space font-bold text-xl text-nibnab-dark/80 max-w-2xl mx-auto">
@@ -51,27 +12,42 @@ export default function Benefits() {
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {benefits.map((benefit, index) => (
-            <div
-              key={benefit.feature}
-              class="group neo-shadow neo-border rounded-xl p-6 bg-white hover:scale-105 transition-all"
-              style={{ animationDelay: `${index * 50}ms` }}
-            >
-              <div class="flex items-start gap-4">
-                <div class={`${benefit.color} w-12 h-12 neo-border-thin rounded-lg flex items-center justify-center text-2xl flex-shrink-0 group-hover:animate-bounce`}>
-                  {benefit.icon}
-                </div>
-                <div>
-                  <h3 class="font-space font-bold text-lg text-nibnab-dark mb-1">
-                    {benefit.feature}
-                  </h3>
-                  <p class="font-quicksand font-semibold text-sm text-nibnab-dark/70">
-                    → {benefit.payoff}
-                  </p>
-                </div>
-              </div>
-            </div>
-          ))}
+          <BenefitCard
+            feature="Instant Capture"
+            payoff="Never lose that perfect quote"
+            icon="✨"
+            color="bg-nibnab-peach"
+          />
+          <BenefitCard
+            feature="Color Sorting"
+            payoff="Your brain already thinks in colors"
+            icon="🎨"
+            color="bg-nibnab-lavender"
+          />
+          <BenefitCard
+            feature="Markdown Files"
+            payoff="Works with Obsidian, Notion, everything"
+            icon="📝"
+            color="bg-nibnab-sky"
+          />
+          <BenefitCard
+            feature="No Cloud"
+            payoff="Your private thoughts stay private"
+            icon="🔒"
+            color="bg-nibnab-sage"
+          />
+          <BenefitCard
+            feature="Keyboard First"
+            payoff="Copy, press 1-4, done"
+            icon="⌨️"
+            color="bg-nibnab-peach"
+          />
+          <BenefitCard
+            feature="Menu Bar Home"
+            payoff="Always there when inspiration strikes"
+            icon="🏠"
+            color="bg-nibnab-lavender"
+          />
         </div>
 
         <div class="mt-16 neo-shadow neo-border rounded-2xl p-8 bg-gradient-to-br from-nibnab-peach/20 to-nibnab-lavender/20">
@@ -91,12 +67,37 @@ export default function Benefits() {
                 Zero Dependencies
               </span>
               <span class="neo-border-thin bg-white px-4 py-2 rounded-lg font-space font-bold text-nibnab-dark">
-                < 5MB Download
+                &lt; 5MB Download
               </span>
             </div>
           </div>
         </div>
       </div>
     </section>
+  );
+}
+
+function BenefitCard({ feature, payoff, icon, color }: {
+  feature: string;
+  payoff: string;
+  icon: string;
+  color: string;
+}) {
+  return (
+    <div class="group neo-shadow neo-border rounded-xl p-6 bg-white hover:scale-105 transition-all">
+      <div class="flex items-start gap-4">
+        <div class={`${color} w-12 h-12 neo-border-thin rounded-lg flex items-center justify-center text-2xl flex-shrink-0 group-hover:animate-bounce`}>
+          {icon}
+        </div>
+        <div>
+          <h3 class="font-space font-bold text-lg text-nibnab-dark mb-1">
+            {feature}
+          </h3>
+          <p class="font-quicksand font-semibold text-sm text-nibnab-dark/70">
+            → {payoff}
+          </p>
+        </div>
+      </div>
+    </div>
   );
 }

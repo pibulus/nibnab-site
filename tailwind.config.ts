@@ -18,7 +18,8 @@ export default {
       fontFamily: {
         space: ["Space Grotesk", "sans-serif"],
         bebas: ["Bebas Neue", "sans-serif"],
-        titan: ["Titan One", "cursive"],
+        bubbles: ["Rubik Bubbles", "cursive"],
+        modak: ["Modak", "display"],
         quicksand: ["Quicksand", "sans-serif"],
         mono: ["JetBrains Mono", "monospace"],
       },

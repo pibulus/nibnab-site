@@ -1,8 +1,11 @@
 export default function Download() {
   return (
-    <section id="download" class="py-24 px-6 bg-gradient-to-b from-gray-50 to-nibnab-peach/10">
+    <section id="download" class="py-32 px-6 bg-nibnab-peach/20 relative">
+      {/* Decorative elements */}
+      <div class="absolute top-10 left-10 w-20 h-20 bg-nibnab-sage/30 rounded-full blur-2xl" />
+      <div class="absolute bottom-10 right-10 w-32 h-32 bg-nibnab-sky/30 rounded-full blur-2xl" />
       <div class="max-w-4xl mx-auto text-center">
-        <h2 class="font-bebas text-6xl md:text-7xl text-nibnab-dark mb-8 tracking-wide animate-bounce-in">
+        <h2 class="font-modak text-7xl md:text-8xl text-nibnab-dark mb-8 animate-float">
           Get NibNab
         </h2>
 
@@ -85,6 +88,7 @@ open build/NibNab.app`}</code>
             </p>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

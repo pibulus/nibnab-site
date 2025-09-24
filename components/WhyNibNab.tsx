@@ -1,16 +1,21 @@
 export default function WhyNibNab() {
   return (
-    <section class="py-24 px-6 bg-gradient-to-b from-nibnab-peach/10 via-white to-nibnab-lavender/10">
+    <section class="py-24 px-6 bg-nibnab-dark text-white relative overflow-hidden">
+      {/* Background pattern */}
+      <div class="absolute inset-0 opacity-10" aria-hidden="true">
+        <div class="absolute top-0 left-0 w-64 h-64 bg-nibnab-peach rounded-full blur-3xl" />
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-nibnab-lavender rounded-full blur-3xl" />
+      </div>
       <div class="max-w-5xl mx-auto">
         {/* The Problem */}
         <div class="text-center mb-16">
-          <h2 class="font-titan text-5xl md:text-6xl text-nibnab-dark mb-6 animate-wiggle">
+          <h2 class="font-modak text-6xl md:text-7xl text-white mb-6 animate-wiggle">
             You Copy 50 Things a Day
           </h2>
-          <p class="font-space font-bold text-2xl text-nibnab-dark/90 mb-4">
+          <p class="font-space font-bold text-2xl text-nibnab-peach mb-4">
             Where do they go?
           </p>
-          <p class="font-quicksand font-semibold text-lg text-nibnab-dark/70 max-w-2xl mx-auto">
+          <p class="font-quicksand font-semibold text-lg text-white/80 max-w-2xl mx-auto">
             Lost in random docs. Buried in Notes.app. Gone forever.<br/>
             Your ideas deserve better than digital limbo.
           </p>
@@ -18,7 +23,7 @@ export default function WhyNibNab() {
 
         {/* The Guide */}
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          <div class="neo-shadow neo-border rounded-xl p-6 bg-white transform hover:rotate-1 hover:scale-105 transition-all">
+          <div class="neo-shadow neo-border rounded-xl p-6 bg-nibnab-peach/90 transform hover:rotate-1 hover:scale-105 transition-all">
             <div class="text-4xl mb-4">🎯</div>
             <h3 class="font-space font-bold text-xl text-nibnab-dark mb-2">
               Four Colors
@@ -28,7 +33,7 @@ export default function WhyNibNab() {
             </p>
           </div>
 
-          <div class="neo-shadow neo-border rounded-xl p-6 bg-white transform hover:-rotate-1 hover:scale-105 transition-all">
+          <div class="neo-shadow neo-border rounded-xl p-6 bg-nibnab-lavender/90 transform hover:-rotate-1 hover:scale-105 transition-all">
             <div class="text-4xl mb-4">💾</div>
             <h3 class="font-space font-bold text-xl text-nibnab-dark mb-2">
               Local Storage
@@ -38,7 +43,7 @@ export default function WhyNibNab() {
             </p>
           </div>
 
-          <div class="neo-shadow neo-border rounded-xl p-6 bg-white transform hover:rotate-1 hover:scale-105 transition-all">
+          <div class="neo-shadow neo-border rounded-xl p-6 bg-nibnab-sky/90 transform hover:rotate-1 hover:scale-105 transition-all">
             <div class="text-4xl mb-4">⚡</div>
             <h3 class="font-space font-bold text-xl text-nibnab-dark mb-2">
               Menu Bar Magic
@@ -93,13 +98,14 @@ export default function WhyNibNab() {
 
         {/* Success */}
         <div class="mt-16 text-center">
-          <p class="font-space font-bold text-2xl text-nibnab-dark mb-4">
+          <p class="font-space font-bold text-2xl text-white mb-4">
             Transform from "where did I put that?" to "it's in lavender"
           </p>
-          <p class="font-quicksand font-semibold text-lg text-nibnab-dark/70">
+          <p class="font-quicksand font-semibold text-lg text-white/80">
             Your clipboard, finally organized by vibe.
           </p>
         </div>
+      </div>
       </div>
     </section>
   );

@@ -5,6 +5,7 @@ import Features from "../components/Features.tsx";
 import Benefits from "../components/Benefits.tsx";
 import Download from "../components/Download.tsx";
 import Footer from "../components/Footer.tsx";
+import Divider from "../components/Divider.tsx";
 
 export default function Home() {
   return (
@@ -63,9 +64,13 @@ export default function Home() {
 
       <main class="min-h-screen">
         <Hero />
+        <Divider type="wave" color="dark" />
         <WhyNibNab />
+        <Divider type="dots" />
         <Features />
+        <Divider type="zigzag" />
         <Benefits />
+        <Divider type="dots" />
         <Download />
         <Footer />
       </main>

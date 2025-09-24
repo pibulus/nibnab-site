@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Bebas+Neue&family=Titan+One&family=Quicksand:wght@500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Bebas+Neue&family=Rubik+Bubbles&family=Modak&family=Quicksand:wght@500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
 
 /* Base styles */
 *,
@@ -87,6 +87,47 @@ html {
   0%, 100% { transform: rotate(0deg); }
   25% { transform: rotate(-2deg); }
   75% { transform: rotate(2deg); }
+}
+
+/* Wave dividers */
+.wave-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-top svg, .wave-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 60px;
+}
+
+/* Zigzag border */
+.zigzag-top::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: linear-gradient(45deg, transparent 33.333%, currentColor 33.333%, currentColor 66.667%, transparent 66.667%),
+              linear-gradient(-45deg, transparent 33.333%, currentColor 33.333%, currentColor 66.667%, transparent 66.667%);
+  background-size: 20px 40px;
+  background-position: 0 -20px;
 }
 
 /* Utility classes */
