@@ -31,10 +31,10 @@ export default function Features() {
   ];
 
   return (
-    <section class="py-24 px-6 bg-gradient-to-br from-nibnab-sky/20 via-white to-nibnab-sage/20">
+    <section class="py-24 px-6 bg-pablo-yolk/20">
       <div class="max-w-6xl mx-auto">
         <div class="text-center mb-16">
-          <h2 class="font-bubbles text-5xl md:text-6xl text-nibnab-dark mb-4">
+          <h2 class="font-bungee text-5xl md:text-6xl text-nibnab-dark mb-4">
             Four Colors, Infinite Possibilities
           </h2>
           <p class="font-quicksand font-semibold text-xl text-nibnab-dark/80 max-w-2xl mx-auto">

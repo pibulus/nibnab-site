@@ -5,7 +5,7 @@ export default function Download() {
       <div class="absolute top-10 left-10 w-20 h-20 bg-nibnab-sage/30 rounded-full blur-2xl" />
       <div class="absolute bottom-10 right-10 w-32 h-32 bg-nibnab-sky/30 rounded-full blur-2xl" />
       <div class="max-w-4xl mx-auto text-center">
-        <h2 class="font-bubbles text-6xl md:text-7xl text-nibnab-dark mb-8 animate-float">
+        <h2 class="font-lilita text-6xl md:text-7xl text-nibnab-dark mb-8 animate-float">
           Get NibNab
         </h2>
 

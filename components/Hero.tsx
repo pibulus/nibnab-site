@@ -12,7 +12,7 @@ export default function Hero() {
       {/* Main content */}
       <div class="relative z-10 text-center px-6">
         <div class="mb-8 animate-float">
-          <h1 class="font-shrikhand text-7xl md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-pablo-miami via-pablo-pool to-pablo-dream mb-2 transform hover:scale-105 transition-transform">
+          <h1 class="font-bowlby text-8xl md:text-9xl text-pablo-miami mb-2 transform hover:scale-105 transition-transform hover:-rotate-2">
             NibNab
           </h1>
           <div class="flex justify-center gap-3 mt-4" role="presentation" aria-label="Four color collections">

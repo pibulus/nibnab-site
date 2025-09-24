@@ -1,9 +1,9 @@
 export default function Benefits() {
   return (
-    <section class="py-24 px-6 bg-gradient-to-br from-pablo-sunset/20 via-white to-pablo-yolk/20">
+    <section class="py-24 px-6 bg-pablo-sunset/10">
       <div class="max-w-6xl mx-auto">
         <div class="text-center mb-16">
-          <h2 class="font-shrikhand text-5xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-pablo-miami to-pablo-pool mb-4 transform hover:scale-105 transition-transform">
+          <h2 class="font-bowlby text-5xl md:text-6xl text-pablo-miami mb-4 transform hover:scale-105 transition-transform">
             Built for Creative Flow
           </h2>
           <p class="font-space font-bold text-xl text-nibnab-dark/80 max-w-2xl mx-auto">
