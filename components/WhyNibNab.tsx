@@ -1,6 +1,6 @@
 export default function WhyNibNab() {
   return (
-    <section class="py-24 px-6 bg-nibnab-dark text-white relative overflow-hidden">
+    <section class="py-24 px-6 bg-gradient-to-br from-pablo-dream via-pablo-miami/90 to-pablo-pool text-white relative overflow-hidden">
       {/* Background pattern */}
       <div class="absolute inset-0 opacity-10" aria-hidden="true">
         <div class="absolute top-0 left-0 w-64 h-64 bg-nibnab-peach rounded-full blur-3xl" />
@@ -9,10 +9,10 @@ export default function WhyNibNab() {
       <div class="max-w-5xl mx-auto">
         {/* The Problem */}
         <div class="text-center mb-16">
-          <h2 class="font-modak text-6xl md:text-7xl text-white mb-6 animate-wiggle">
+          <h2 class="font-bubbles text-5xl md:text-6xl text-white mb-6">
             You Copy 50 Things a Day
           </h2>
-          <p class="font-space font-bold text-2xl text-nibnab-peach mb-4">
+          <p class="font-space font-bold text-2xl text-pablo-sunset mb-4">
             Where do they go?
           </p>
           <p class="font-quicksand font-semibold text-lg text-white/80 max-w-2xl mx-auto">
