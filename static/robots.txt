@@ -1,0 +1,5 @@
+# NibNab - A highlighter for your digital life
+User-agent: *
+Allow: /
+
+Sitemap: https://nibnab.app/sitemap.xml

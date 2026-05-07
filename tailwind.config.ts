@@ -8,19 +8,11 @@ export default {
     extend: {
       colors: {
         nibnab: {
-          peach: "#FFB5A7",
-          lavender: "#DDA0DD",
-          sky: "#87CEEB",
-          sage: "#90EE90",
+          yellow: "#FFEB3B",
+          orange: "#f68717",
+          pink: "#f60474",
+          purple: "#8717f6",
           dark: "#2D2D2D",
-        },
-        pablo: {
-          sunset: "#FFE5B4",
-          miami: "#FF6B6B",
-          pool: "#4ECDC4",
-          dream: "#9370DB",
-          yolk: "#F9E79F",
-          concrete: "#D3D3D3",
         },
       },
       fontFamily: {
@@ -30,6 +22,7 @@ export default {
         bungee: ["Bungee", "display"],
         bowlby: ["Bowlby One", "display"],
         lilita: ["Lilita One", "display"],
+        fredoka: ["Fredoka", "sans-serif"],
         quicksand: ["Quicksand", "sans-serif"],
         mono: ["JetBrains Mono", "monospace"],
       },

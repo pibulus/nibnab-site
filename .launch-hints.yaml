@@ -1,0 +1,28 @@
+# Launch hints for Launch Arsenal.
+# Edit aggressively. These fields should pin the app's real audience, problem, and promise.
+name: "NibNab Site \U0001F3AF"
+slug: nibnab-site
+app_type: web-app
+audience: people who already feel the problem
+problem: 'the existing way still feels heavier, foggier, or slower than it should'
+promise: Marketing site for NibNab - a color-coded clipboard manager for macOS
+cta: Reply if you want the link.
+differentiators: []
+proof_points:
+  - Deno + Fresh - Modern edge-first framework
+  - Tailwind CSS - Utility-first styling
+  - Preact - Lightweight React alternative
+  - Soft Neo Toybrut - Pastel punk aesthetic with chunky borders
+objections:
+  - 'Still wants a human pass on audience, proof, and the sharpest angle.'
+keywords:
+  seed:
+    - "NibNab Site \U0001F3AF"
+    - nibnab site
+    - web app
+  audience: people who already feel the problem
+  intent:
+    - launch faster
+    - clearer first draft
+manual_notes:
+  - Edit this aggressively. Keep only the lines that feel native to the app.

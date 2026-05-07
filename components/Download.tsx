@@ -1,22 +1,22 @@
 export default function Download() {
   return (
-    <section id="download" class="py-32 px-6 bg-nibnab-peach/20 relative">
+    <section id="download" class="py-32 px-6 bg-nibnab-yellow/20 relative">
       {/* Decorative elements */}
-      <div class="absolute top-10 left-10 w-20 h-20 bg-nibnab-sage/30 rounded-full blur-2xl" />
-      <div class="absolute bottom-10 right-10 w-32 h-32 bg-nibnab-sky/30 rounded-full blur-2xl" />
+      <div class="absolute top-10 left-10 w-20 h-20 bg-nibnab-orange/30 rounded-full blur-2xl" />
+      <div class="absolute bottom-10 right-10 w-32 h-32 bg-nibnab-pink/30 rounded-full blur-2xl" />
       <div class="max-w-4xl mx-auto text-center">
-        <h2 class="font-lilita text-6xl md:text-7xl text-nibnab-dark mb-8 animate-float">
+        <h2 class="font-fredoka font-bold text-6xl md:text-7xl text-nibnab-dark mb-8 animate-float">
           Get NibNab
         </h2>
 
         <div class="neo-shadow neo-border rounded-2xl p-12 bg-white mb-12">
           <div class="mb-8">
-            <h3 class="font-space font-bold text-3xl text-nibnab-dark mb-4">
-              🚧 Almost Ready
+            <h3 class="font-space font-black text-3xl text-nibnab-dark mb-4">
+              Download for Mac
             </h3>
-            <p class="font-quicksand font-semibold text-lg text-nibnab-dark/70 max-w-2xl mx-auto">
-              First release dropping soon.<br/>
-              Brave souls can build from source.
+            <p class="font-quicksand font-bold text-lg text-nibnab-dark/70 max-w-2xl mx-auto">
+              Free forever. No trial. No freemium. No "pro" version.<br/>
+              Free means free.
             </p>
           </div>
 
@@ -41,17 +41,17 @@ open build/NibNab.app`}</code>
                 href="https://github.com/pibulus/nibnab/releases"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="neo-shadow neo-border bg-nibnab-lavender hover:bg-nibnab-lavender/80 px-6 py-3 rounded-xl font-space font-bold text-nibnab-dark transform hover:rotate-1 hover:scale-105 transition-all"
+                class="neo-shadow neo-border bg-nibnab-yellow hover:bg-nibnab-yellow/80 px-8 py-4 rounded-xl font-space font-black text-lg text-nibnab-dark transform hover:rotate-1 hover:scale-105 transition-all"
               >
-                Check Releases
+                Download NibNab.app
               </a>
               <a
-                href="https://github.com/pibulus/nibnab/issues"
+                href="https://github.com/pibulus/nibnab"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="neo-shadow neo-border bg-nibnab-sky hover:bg-nibnab-sky/80 px-6 py-3 rounded-xl font-space font-bold text-nibnab-dark transform hover:-rotate-1 hover:scale-105 transition-all"
+                class="neo-shadow neo-border bg-white hover:bg-gray-50 px-8 py-4 rounded-xl font-space font-black text-lg text-nibnab-dark transform hover:-rotate-1 hover:scale-105 transition-all"
               >
-                Report Issues
+                View on GitHub
               </a>
             </div>
           </div>

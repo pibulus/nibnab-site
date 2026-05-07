@@ -1,73 +1,75 @@
 export default function Benefits() {
   return (
-    <section class="py-24 px-6 bg-pablo-sunset/10">
+    <section class="py-24 px-6 bg-nibnab-yellow/10">
       <div class="max-w-6xl mx-auto">
         <div class="text-center mb-16">
-          <h2 class="font-bowlby text-5xl md:text-6xl text-pablo-miami mb-4 transform hover:scale-105 transition-transform">
-            Built for Creative Flow
+          <h2 class="font-fredoka font-bold text-5xl md:text-6xl text-nibnab-dark mb-4 transform hover:scale-105 transition-transform">
+            Made for humans who copy stuff
           </h2>
-          <p class="font-space font-bold text-xl text-nibnab-dark/80 max-w-2xl mx-auto">
-            Every feature designed to reduce friction and spark joy
+          <p class="font-space font-black text-xl text-nibnab-dark/70 max-w-2xl mx-auto">
+            Writers. Developers. Designers. Students. Everyone else.
           </p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <BenefitCard
-            feature="Instant Capture"
-            payoff="Never lose that perfect quote"
-            icon="✨"
-            color="bg-nibnab-peach"
-          />
-          <BenefitCard
-            feature="Color Sorting"
-            payoff="Your brain already thinks in colors"
-            icon="🎨"
-            color="bg-nibnab-lavender"
-          />
-          <BenefitCard
-            feature="Markdown Files"
-            payoff="Works with Obsidian, Notion, everything"
+            feature="Writers"
+            payoff="Collect research, gather quotes, organize references"
             icon="📝"
-            color="bg-nibnab-sky"
+            color="bg-nibnab-yellow"
           />
           <BenefitCard
-            feature="No Cloud"
-            payoff="Your private thoughts stay private"
-            icon="🔒"
-            color="bg-nibnab-sage"
+            feature="Developers"
+            payoff="Save code snippets, commands, Stack Overflow gems"
+            icon="💻"
+            color="bg-nibnab-orange"
           />
           <BenefitCard
-            feature="Keyboard First"
-            payoff="Copy, press 1-4, done"
+            feature="Designers"
+            payoff="Capture inspiration, color codes, URLs"
+            icon="🎨"
+            color="bg-nibnab-pink"
+          />
+          <BenefitCard
+            feature="Students"
+            payoff="Clip lecture notes, research papers, important passages"
+            icon="📚"
+            color="bg-nibnab-purple"
+          />
+          <BenefitCard
+            feature="Everyone else"
+            payoff="If you copy things and want to find them later"
+            icon="🌟"
+            color="bg-nibnab-yellow"
+          />
+          <BenefitCard
+            feature="Keyboard wizards"
+            payoff="Global shortcuts, quick export, zero mouse needed"
             icon="⌨️"
-            color="bg-nibnab-peach"
-          />
-          <BenefitCard
-            feature="Menu Bar Home"
-            payoff="Always there when inspiration strikes"
-            icon="🏠"
-            color="bg-nibnab-lavender"
+            color="bg-nibnab-orange"
           />
         </div>
 
-        <div class="mt-16 neo-shadow neo-border rounded-2xl p-8 bg-gradient-to-br from-nibnab-peach/20 to-nibnab-lavender/20">
+        <div class="mt-16 neo-shadow neo-border rounded-2xl p-8 bg-white">
           <div class="text-center">
-            <h3 class="font-bebas text-3xl text-nibnab-dark mb-4 tracking-wide">
-              The Clipboard Manager That Doesn't Try Too Hard
+            <h3 class="font-fredoka font-bold text-3xl text-nibnab-dark mb-4">
+              Built right. Stays fast.
             </h3>
-            <p class="font-quicksand font-semibold text-lg text-nibnab-dark/80 max-w-2xl mx-auto mb-6">
-              No AI. No sync conflicts. No subscription popups.<br/>
-              Just a simple tool that respects your workflow.
+            <p class="font-quicksand font-bold text-lg text-nibnab-dark/70 max-w-2xl mx-auto mb-6">
+              Native Swift/SwiftUI. No dependencies. Single file. ~1200 lines of readable code.
             </p>
             <div class="flex flex-wrap justify-center gap-4 text-sm">
-              <span class="neo-border-thin bg-white px-4 py-2 rounded-lg font-space font-bold text-nibnab-dark">
+              <span class="neo-border-thin bg-nibnab-yellow px-4 py-2 rounded-lg font-space font-black text-nibnab-dark">
                 100% Native Swift
               </span>
-              <span class="neo-border-thin bg-white px-4 py-2 rounded-lg font-space font-bold text-nibnab-dark">
+              <span class="neo-border-thin bg-nibnab-orange px-4 py-2 rounded-lg font-space font-black text-nibnab-dark">
                 Zero Dependencies
               </span>
-              <span class="neo-border-thin bg-white px-4 py-2 rounded-lg font-space font-bold text-nibnab-dark">
-                &lt; 5MB Download
+              <span class="neo-border-thin bg-nibnab-pink px-4 py-2 rounded-lg font-space font-black text-nibnab-dark">
+                Apple Silicon Optimized
+              </span>
+              <span class="neo-border-thin bg-nibnab-purple px-4 py-2 rounded-lg font-space font-black text-nibnab-dark">
+                10 MB Disk Space
               </span>
             </div>
           </div>
