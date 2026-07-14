@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Bebas+Neue&family=Rubik+Bubbles&family=Bungee&family=Bowlby+One&family=Lilita+One&family=Fredoka:wght@700&family=Quicksand:wght@500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Bebas+Neue&family=Rubik+Bubbles&family=Bungee&family=Bowlby+One&family=Lilita+One&family=Fredoka:wght@700&family=Quicksand:wght@500;600;700&family=JetBrains+Mono:wght@400;600&display=swap");
 
 /* Base styles */
 *,
@@ -18,8 +18,18 @@
 html {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
-  font-family: 'Quicksand', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-family:
+    "Quicksand",
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif;
   font-weight: 600;
 }
 
@@ -76,17 +86,23 @@ html {
 
 @keyframes pulse-neon {
   0%, 100% {
-    filter: drop-shadow(0 0 10px #FF00FF);
+    filter: drop-shadow(0 0 10px #ff00ff);
   }
   50% {
-    filter: drop-shadow(0 0 20px #00FFFF);
+    filter: drop-shadow(0 0 20px #00ffff);
   }
 }
 
 @keyframes shake {
-  0%, 100% { transform: rotate(0deg); }
-  25% { transform: rotate(-2deg); }
-  75% { transform: rotate(2deg); }
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-2deg);
+  }
+  75% {
+    transform: rotate(2deg);
+  }
 }
 
 /* Wave dividers */
@@ -124,8 +140,21 @@ html {
   left: 0;
   right: 0;
   height: 10px;
-  background: linear-gradient(45deg, transparent 33.333%, currentColor 33.333%, currentColor 66.667%, transparent 66.667%),
-              linear-gradient(-45deg, transparent 33.333%, currentColor 33.333%, currentColor 66.667%, transparent 66.667%);
+  background:
+    linear-gradient(
+      45deg,
+      transparent 33.333%,
+      currentColor 33.333%,
+      currentColor 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+    -45deg,
+    transparent 33.333%,
+    currentColor 33.333%,
+    currentColor 66.667%,
+    transparent 66.667%
+  );
   background-size: 20px 40px;
   background-position: 0 -20px;
 }
@@ -145,7 +174,7 @@ html {
 
 /* Chunky Neo Brutal styles - NibNab personality */
 .neo-shadow {
-  box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+  box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 1);
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
@@ -170,8 +199,12 @@ html {
 }
 
 @keyframes bounce-subtle {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 /* Highlighter glow effects */
@@ -193,7 +226,7 @@ html {
 
 /* Color bubbles - exact NibNab highlighter colors */
 .bubble-yellow {
-  background: linear-gradient(135deg, #FFEB3B, #FFE82B);
+  background: linear-gradient(135deg, #ffeb3b, #ffe82b);
 }
 
 .bubble-orange {

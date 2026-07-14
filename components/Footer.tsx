@@ -51,16 +51,19 @@ export default function Footer() {
           </p>
 
           <p class="text-white/60 max-w-md mx-auto">
-            NibNab captures everything you copy and organizes it by color—because your clipboard deserves better than Cmd+V into Notes.app.
+            NibNab captures everything you copy and organizes it by
+            color—because your clipboard deserves better than Cmd+V into
+            Notes.app.
           </p>
 
           <p class="text-white/40">
-            Auto-capture, export options, zero cloud BS. It's quick, it's local, it works forever.
+            Auto-capture, export options, zero cloud BS. It's quick, it's local,
+            it works forever.
           </p>
 
           <div class="pt-4 border-t border-white/10">
             <p class="text-white/70">
-              © 2025 Pablo Alvarado • Built in Bangkok ☕
+              © 2026 Pablo Alvarado • Built in Bangkok ☕
             </p>
           </div>
 

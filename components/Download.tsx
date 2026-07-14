@@ -15,45 +15,49 @@ export default function Download() {
               Download for Mac
             </h3>
             <p class="font-quicksand font-bold text-lg text-nibnab-dark/70 max-w-2xl mx-auto">
-              Free forever. No trial. No freemium. No "pro" version.<br/>
+              Free forever. No trial. No freemium. No "pro" version.<br />
               Free means free.
             </p>
           </div>
 
-          <div class="space-y-6">
-            <div class="neo-shadow neo-border rounded-xl p-6 bg-gray-50">
-              <h4 class="font-space font-bold text-xl text-nibnab-dark mb-3">
-                Build from Source
-              </h4>
-              <pre class="bg-nibnab-dark text-white p-4 rounded-lg overflow-x-auto text-sm font-mono text-left">
-                <code>{`git clone https://github.com/pibulus/nibnab.git
-cd nibnab
-./build.sh
-open build/NibNab.app`}</code>
-              </pre>
-              <p class="font-quicksand text-sm text-nibnab-dark/60 mt-3">
-                Requires macOS 13.0+ and Xcode
-              </p>
-            </div>
-
+          <div class="space-y-8">
+            {/* Primary: one-click download */}
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://github.com/pibulus/nibnab/releases"
+                href="https://github.com/pibulus/nibnab/releases/latest"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="neo-shadow neo-border bg-nibnab-yellow hover:bg-nibnab-yellow/80 px-8 py-4 rounded-xl font-space font-black text-lg text-nibnab-dark transform hover:rotate-1 hover:scale-105 transition-all"
+                class="neo-shadow neo-border bg-nibnab-yellow hover:bg-nibnab-yellow/80 px-10 py-5 rounded-xl font-space font-black text-xl text-nibnab-dark transform hover:rotate-1 hover:scale-105 transition-all"
               >
-                Download NibNab.app
+                ↓ Download NibNab.app
               </a>
               <a
                 href="https://github.com/pibulus/nibnab"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="neo-shadow neo-border bg-white hover:bg-gray-50 px-8 py-4 rounded-xl font-space font-black text-lg text-nibnab-dark transform hover:-rotate-1 hover:scale-105 transition-all"
+                class="neo-shadow neo-border bg-white hover:bg-gray-50 px-10 py-5 rounded-xl font-space font-black text-xl text-nibnab-dark transform hover:-rotate-1 hover:scale-105 transition-all"
               >
                 View on GitHub
               </a>
             </div>
+
+            {/* Fallback: build from source, for the nerds */}
+            <details class="neo-border-thin rounded-xl bg-gray-50 text-left group">
+              <summary class="cursor-pointer px-6 py-4 font-space font-bold text-base text-nibnab-dark/80 hover:text-nibnab-dark select-none">
+                🛠️ Or build it yourself
+              </summary>
+              <div class="px-6 pb-6">
+                <pre class="bg-nibnab-dark text-white p-4 rounded-lg overflow-x-auto text-sm font-mono">
+                <code>{`git clone https://github.com/pibulus/nibnab.git
+cd nibnab
+./build.sh
+open build/NibNab.app`}</code>
+                </pre>
+                <p class="font-quicksand text-sm text-nibnab-dark/60 mt-3">
+                  Requires macOS 13.0+ and Xcode
+                </p>
+              </div>
+            </details>
           </div>
         </div>
 

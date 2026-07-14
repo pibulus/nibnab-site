@@ -3,32 +3,38 @@ export default function Features() {
     {
       icon: "🎯",
       title: "Smart Capture",
-      description: "Monitors clipboard changes and text selections. Saves automatically to your active color. No interruptions, no decisions.",
+      description:
+        "Monitors clipboard changes and text selections. Saves automatically to your active color. No interruptions, no decisions.",
     },
     {
       icon: "🎨",
       title: "Color Organization",
-      description: "Four highlighter colors for categorizing clips. Organize by project, type, or whatever makes sense to you.",
+      description:
+        "Four highlighter colors for categorizing clips. Organize by project, type, or whatever makes sense to you.",
     },
     {
       icon: "🔍",
       title: "Powerful Search",
-      description: "Find any clip instantly. Search across text and source apps. Sort by date, app, or length.",
+      description:
+        "Find any clip instantly. Search across text and source apps. Sort by date, app, or length.",
     },
     {
       icon: "📤",
       title: "Two Export Formats",
-      description: "Markdown with metadata, perfect for sharing. Plain Text clean and simple, ready to paste.",
+      description:
+        "Markdown with metadata, perfect for sharing. Plain Text clean and simple, ready to paste.",
     },
     {
       icon: "🔒",
       title: "Privacy First",
-      description: "Everything stored locally in ~/.nibnab/. No cloud. No sync. No tracking. You own your data.",
+      description:
+        "Everything stored locally in ~/.nibnab/. No cloud. No sync. No tracking. You own your data.",
     },
     {
       icon: "⚡",
       title: "Mac Native",
-      description: "Built with Swift/SwiftUI. Feels like it belongs. Right-click settings menu. Keyboard shortcuts. Done right.",
+      description:
+        "Built with Swift/SwiftUI. Feels like it belongs. Right-click settings menu. Keyboard shortcuts. Done right.",
     },
   ];
 

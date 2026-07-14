@@ -15,11 +15,27 @@ export default function Hero() {
           <h1 class="font-fredoka font-bold text-8xl md:text-9xl bg-gradient-to-r from-nibnab-yellow via-nibnab-orange to-nibnab-pink bg-clip-text text-transparent mb-2 transform hover:scale-105 transition-transform hover:-rotate-2">
             NibNab
           </h1>
-          <div class="flex justify-center gap-3 mt-4" role="presentation" aria-label="Four highlighter colors">
-            <span class="w-8 h-8 bg-nibnab-yellow neo-border-thin rounded-lg hover:rotate-12 transition-transform cursor-pointer" aria-label="Yellow highlighter" />
-            <span class="w-8 h-8 bg-nibnab-orange neo-border-thin rounded-lg hover:rotate-12 transition-transform cursor-pointer" aria-label="Orange highlighter" />
-            <span class="w-8 h-8 bg-nibnab-pink neo-border-thin rounded-lg hover:rotate-12 transition-transform cursor-pointer" aria-label="Pink highlighter" />
-            <span class="w-8 h-8 bg-nibnab-purple neo-border-thin rounded-lg hover:rotate-12 transition-transform cursor-pointer" aria-label="Purple highlighter" />
+          <div
+            class="flex justify-center gap-3 mt-4"
+            role="presentation"
+            aria-label="Four highlighter colors"
+          >
+            <span
+              class="w-8 h-8 bg-nibnab-yellow neo-border-thin rounded-lg hover:rotate-12 transition-transform cursor-pointer"
+              aria-label="Yellow highlighter"
+            />
+            <span
+              class="w-8 h-8 bg-nibnab-orange neo-border-thin rounded-lg hover:rotate-12 transition-transform cursor-pointer"
+              aria-label="Orange highlighter"
+            />
+            <span
+              class="w-8 h-8 bg-nibnab-pink neo-border-thin rounded-lg hover:rotate-12 transition-transform cursor-pointer"
+              aria-label="Pink highlighter"
+            />
+            <span
+              class="w-8 h-8 bg-nibnab-purple neo-border-thin rounded-lg hover:rotate-12 transition-transform cursor-pointer"
+              aria-label="Purple highlighter"
+            />
           </div>
         </div>
 

@@ -41,7 +41,8 @@ deno task build
 
 ## Anti-Scale Movement
 
-This site promotes NibNab as part of the anti-scale movement - no pricing page, no subscriptions, just useful software that does one thing well.
+This site promotes NibNab as part of the anti-scale movement - no pricing page,
+no subscriptions, just useful software that does one thing well.
 
 ---
 

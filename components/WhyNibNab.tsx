@@ -13,17 +13,22 @@ export default function WhyNibNab() {
             Why NibNab exists
           </h2>
           <p class="font-space font-black text-2xl text-nibnab-yellow mb-4">
-            Every clipboard manager is either too complicated, too simple, or too corporate.
+            Every clipboard manager is either too complicated, too simple, or
+            too corporate.
           </p>
           <div class="max-w-2xl mx-auto space-y-3 text-left">
             <p class="font-quicksand font-bold text-lg text-white/90">
-              <span class="text-nibnab-orange">Too complicated?</span> We don't need 47 features and a settings panel that scrolls.
+              <span class="text-nibnab-orange">Too complicated?</span>{" "}
+              We don't need 47 features and a settings panel that scrolls.
             </p>
             <p class="font-quicksand font-bold text-lg text-white/90">
-              <span class="text-nibnab-pink">Too simple?</span> A chronological list isn't organization, it's procrastination.
+              <span class="text-nibnab-pink">Too simple?</span>{" "}
+              A chronological list isn't organization, it's procrastination.
             </p>
             <p class="font-quicksand font-bold text-lg text-white/90">
-              <span class="text-nibnab-purple">Too corporate?</span> Why does copying text require an account, a subscription, and "AI-powered insights"?
+              <span class="text-nibnab-purple">Too corporate?</span>{" "}
+              Why does copying text require an account, a subscription, and
+              "AI-powered insights"?
             </p>
           </div>
           <p class="font-space font-black text-2xl text-white mt-8">
@@ -41,8 +46,12 @@ export default function WhyNibNab() {
               <div class="w-20 h-20 bg-nibnab-yellow neo-border-thin rounded-xl flex items-center justify-center font-bebas text-3xl mx-auto mb-4">
                 🎯
               </div>
-              <p class="font-space font-black text-xl text-nibnab-dark mb-2">Copy anything</p>
-              <p class="font-quicksand font-bold text-sm text-nibnab-dark/60">Cmd+C or select text—anywhere on your Mac</p>
+              <p class="font-space font-black text-xl text-nibnab-dark mb-2">
+                Copy anything
+              </p>
+              <p class="font-quicksand font-bold text-sm text-nibnab-dark/60">
+                Cmd+C or select text—anywhere on your Mac
+              </p>
             </div>
 
             <div class="hidden md:block text-4xl">→</div>
@@ -51,8 +60,12 @@ export default function WhyNibNab() {
               <div class="w-20 h-20 bg-nibnab-orange neo-border-thin rounded-xl flex items-center justify-center font-bebas text-3xl mx-auto mb-4">
                 🎨
               </div>
-              <p class="font-space font-black text-xl text-nibnab-dark mb-2">Auto-captures to your color</p>
-              <p class="font-quicksand font-bold text-sm text-nibnab-dark/60">Yellow, Orange, Pink, or Purple—you decide what they mean</p>
+              <p class="font-space font-black text-xl text-nibnab-dark mb-2">
+                Auto-captures to your color
+              </p>
+              <p class="font-quicksand font-bold text-sm text-nibnab-dark/60">
+                Yellow, Orange, Pink, or Purple—you decide what they mean
+              </p>
             </div>
 
             <div class="hidden md:block text-4xl">→</div>
@@ -61,8 +74,12 @@ export default function WhyNibNab() {
               <div class="w-20 h-20 bg-nibnab-pink neo-border-thin rounded-xl flex items-center justify-center font-bebas text-3xl mx-auto mb-4">
                 📦
               </div>
-              <p class="font-space font-black text-xl text-nibnab-dark mb-2">Export or use anytime</p>
-              <p class="font-quicksand font-bold text-sm text-nibnab-dark/60">Search, sort, export as Markdown or Plain Text</p>
+              <p class="font-space font-black text-xl text-nibnab-dark mb-2">
+                Export or use anytime
+              </p>
+              <p class="font-quicksand font-bold text-sm text-nibnab-dark/60">
+                Search, sort, export as Markdown or Plain Text
+              </p>
             </div>
           </div>
         </div>
@@ -73,14 +90,30 @@ export default function WhyNibNab() {
             This will never have:
           </h3>
           <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto mb-8">
-            <div class="font-quicksand font-bold text-white/80">❌ A pricing page</div>
-            <div class="font-quicksand font-bold text-white/80">❌ A login screen</div>
-            <div class="font-quicksand font-bold text-white/80">❌ A "pro" version</div>
-            <div class="font-quicksand font-bold text-white/80">❌ Analytics</div>
-            <div class="font-quicksand font-bold text-white/80">❌ Your email address</div>
-            <div class="font-quicksand font-bold text-white/80">❌ Cloud sync drama</div>
-            <div class="font-quicksand font-bold text-white/80">❌ Feature bloat</div>
-            <div class="font-quicksand font-bold text-white/80">❌ Subscriptions</div>
+            <div class="font-quicksand font-bold text-white/80">
+              ❌ A pricing page
+            </div>
+            <div class="font-quicksand font-bold text-white/80">
+              ❌ A login screen
+            </div>
+            <div class="font-quicksand font-bold text-white/80">
+              ❌ A "pro" version
+            </div>
+            <div class="font-quicksand font-bold text-white/80">
+              ❌ Analytics
+            </div>
+            <div class="font-quicksand font-bold text-white/80">
+              ❌ Your email address
+            </div>
+            <div class="font-quicksand font-bold text-white/80">
+              ❌ Cloud sync drama
+            </div>
+            <div class="font-quicksand font-bold text-white/80">
+              ❌ Feature bloat
+            </div>
+            <div class="font-quicksand font-bold text-white/80">
+              ❌ Subscriptions
+            </div>
           </div>
           <p class="font-space font-black text-2xl text-nibnab-yellow">
             Just a tool that does one thing well and respects you.

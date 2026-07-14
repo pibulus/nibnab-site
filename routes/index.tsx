@@ -16,31 +16,55 @@ export default function Home() {
           name="description"
           content="Your clipboard deserves better than Cmd+V into Notes.app. NibNab captures everything you copy and organizes it by color. Four highlighters, infinite possibilities. No cloud, no accounts, no tracking. Free for macOS 13.0+"
         />
-        <meta name="keywords" content="clipboard manager mac, macos clipboard, color coded clipboard, clipboard organizer, clipboard history, markdown clipboard, local clipboard manager, swift clipboard app, menubar clipboard, privacy clipboard, free clipboard manager" />
+        <meta
+          name="keywords"
+          content="clipboard manager mac, macos clipboard, color coded clipboard, clipboard organizer, clipboard history, markdown clipboard, local clipboard manager, swift clipboard app, menubar clipboard, privacy clipboard, free clipboard manager"
+        />
         <meta name="author" content="Pablo Alvarado (@pibulus)" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#FFEB3B" />
 
         {/* Open Graph */}
         <meta property="og:site_name" content="NibNab" />
-        <meta property="og:title" content="NibNab - A highlighter for your digital life" />
-        <meta property="og:description" content="Your clipboard deserves better than Cmd+V into Notes.app. Color-coded clipboard manager for Mac that respects your privacy. Free forever." />
+        <meta
+          property="og:title"
+          content="NibNab - A highlighter for your digital life"
+        />
+        <meta
+          property="og:description"
+          content="Your clipboard deserves better than Cmd+V into Notes.app. Color-coded clipboard manager for Mac that respects your privacy. Free forever."
+        />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://nibnab.app" />
         <meta property="og:image" content="https://nibnab.app/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="NibNab - Color-coded clipboard manager with four highlighter colors" />
+        <meta
+          property="og:image:alt"
+          content="NibNab - Color-coded clipboard manager with four highlighter colors"
+        />
         <meta property="og:locale" content="en_US" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@pibulus" />
         <meta name="twitter:creator" content="@pibulus" />
-        <meta name="twitter:title" content="NibNab - A highlighter for your digital life" />
-        <meta name="twitter:description" content="Color-coded clipboard manager for Mac. Copy, pick a color, find it later. No cloud, no tracking, no BS." />
-        <meta name="twitter:image" content="https://nibnab.app/twitter-card.png" />
-        <meta name="twitter:image:alt" content="NibNab clipboard manager with four highlighter colors" />
+        <meta
+          name="twitter:title"
+          content="NibNab - A highlighter for your digital life"
+        />
+        <meta
+          name="twitter:description"
+          content="Color-coded clipboard manager for Mac. Copy, pick a color, find it later. No cloud, no tracking, no BS."
+        />
+        <meta
+          name="twitter:image"
+          content="https://nibnab.app/twitter-card.png"
+        />
+        <meta
+          name="twitter:image:alt"
+          content="NibNab clipboard manager with four highlighter colors"
+        />
 
         {/* Schema.org structured data */}
         <script type="application/ld+json">
@@ -93,7 +117,11 @@ export default function Home() {
 
         <link rel="stylesheet" href="/styles.css" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
 

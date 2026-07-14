@@ -56,7 +56,8 @@ export default function Benefits() {
               Built right. Stays fast.
             </h3>
             <p class="font-quicksand font-bold text-lg text-nibnab-dark/70 max-w-2xl mx-auto mb-6">
-              Native Swift/SwiftUI. No dependencies. Single file. ~1200 lines of readable code.
+              Native Swift/SwiftUI. No dependencies. Single file. ~1200 lines of
+              readable code.
             </p>
             <div class="flex flex-wrap justify-center gap-4 text-sm">
               <span class="neo-border-thin bg-nibnab-yellow px-4 py-2 rounded-lg font-space font-black text-nibnab-dark">
@@ -88,7 +89,9 @@ function BenefitCard({ feature, payoff, icon, color }: {
   return (
     <div class="group neo-shadow neo-border rounded-xl p-6 bg-white hover:scale-105 transition-all">
       <div class="flex items-start gap-4">
-        <div class={`${color} w-12 h-12 neo-border-thin rounded-lg flex items-center justify-center text-2xl flex-shrink-0 group-hover:animate-bounce`}>
+        <div
+          class={`${color} w-12 h-12 neo-border-thin rounded-lg flex items-center justify-center text-2xl flex-shrink-0 group-hover:animate-bounce`}
+        >
           {icon}
         </div>
         <div>
