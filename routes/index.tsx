@@ -36,7 +36,7 @@ export default function Home() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://nibnab.app" />
-        <meta property="og:image" content="https://nibnab.app/og-image.png" />
+        <meta property="og:image" content="https://nibnab.app/og-card.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta
