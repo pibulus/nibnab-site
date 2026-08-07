@@ -59,7 +59,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://nibnab.app/twitter-card.png"
+          content="https://nibnab.app/og-card.png"
         />
         <meta
           name="twitter:image:alt"
