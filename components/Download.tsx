@@ -24,12 +24,11 @@ export default function Download() {
             {/* Primary: one-click download */}
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://github.com/pibulus/nibnab/releases/latest"
-                target="_blank"
+                href="https://github.com/pibulus/nibnab/releases/latest/download/NibNab.dmg"
                 rel="noopener noreferrer"
                 class="neo-shadow neo-border bg-nibnab-yellow hover:bg-nibnab-yellow/80 px-10 py-5 rounded-xl font-space font-black text-xl text-nibnab-dark transform hover:rotate-1 hover:scale-105 transition-all"
               >
-                ↓ Download NibNab.app
+                ↓ Download NibNab.dmg
               </a>
               <a
                 href="https://github.com/pibulus/nibnab"

@@ -77,8 +77,8 @@ export default function Home() {
             "operatingSystem": "macOS 13.0+",
             "description": "A highlighter for your digital life. Color-coded clipboard manager for Mac that captures everything you copy and organizes it into four highlighter colors. Privacy-first, local-only storage.",
             "url": "https://nibnab.app",
-            "downloadUrl": "https://github.com/pibulus/nibnab/releases",
-            "softwareVersion": "1.0",
+            "downloadUrl": "https://github.com/pibulus/nibnab/releases/latest/download/NibNab.dmg",
+            "softwareVersion": "1.0.1",
             "datePublished": "2025-01-01",
             "offers": {
               "@type": "Offer",
